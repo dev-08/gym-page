@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> ABC fitness 
+    </title>
+</head>
+
+<link rel="stylesheet"  href="css/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+<style>
+    * {
+
+       
+        padding: 0px;
+       
+    }
+
+    body{
+       
+        background-image: url('img/bg.jpg');
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 97vh;
+        width: 100vw;
+
+    }
+    .left{
+        color: white;
+        display: inline-block;
+        
+        position: absolute;
+        left: 34px;
+        top: 20px;
+    }
+    .mid{ 
+        display: block;
+        color: white;
+        margin: 20px auto;
+        width: 33%;
+   
+    }
+    .right{
+        position: absolute;
+        right: 34px;
+        top: 20px;
+        color: white;
+       
+    }
+   .navbar{
+    display: inline-block;
+
+   }
+   .navbar li{
+    color: white;
+    display: inline-block;
+   }
+   .navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 34px 15px;
+   }
+
+   .navbar li a:hover, .navbar li a:active{
+    
+    text-decoration: none;
+    background-color: blueviolet;
+    border-radius: 5px;
+    margin: 0px;
+    padding: 15px;
+    color: white;
+    height: 10px;
+    width: 10px;
+   }
+   .left img{
+
+    width: 60px;
+    height: 40px;
+    margin-left: 10px;
+    filter: invert(100%);
+   }
+   .left div{
+    text-align: center;
+   }
+
+   .btn{
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    border: solid black 2px;
+    padding: 4px 14px;
+    border-radius: 2px;
+
+   }
+   .btn:hover{
+    border: 2px blueviolet solid;
+    border-radius: 5px;
+   }
+   .container{
+
+        position: absolute;
+        height: 300px;
+        width: 700px;
+        top: 250px;
+        right: 100px;
+        text-align: center;
+       
+
+   }
+   .text{
+
+        font-family: 'Oswald', sans-serif;
+        color: white;
+        text-align: center;
+        margin-top: 60px ;
+        font-size :55px;
+        
+        
+   }
+   .text34{
+
+font-family: 'Oswald', sans-serif;
+color: white;
+text-align: center;
+margin-top: 5px ;
+font-size :55px;
+
+
+}
+
+.btn_1{
+
+        background-color: blueviolet;
+        height: 70px;
+        width: 200px;
+        color: white;
+        font-size: large;
+      font-family: 'Oswald', sans-serif;
+
+      margin-top: 30px;
+      border: 2px solid blueviolet;
+      padding: -10px;
+      
+
+}
+
+.video{
+        position: absolute;
+        right: 0px;
+        left: 0px;
+        margin-top: 180px;
+        height: 1920px;
+        width: 1470px;
+}
+</style>
+<body>
+    <div>
+
+        <header class="header">
+            <div class="left">
+               <img src="img/sm.png" alt="">
+               <div> ABC fitness</div>
+            </div>
+            <div class="mid">
+
+                    
+                    <ul class="navbar">
+                        <li> <a href="#" class="active">Home</a> </li>
+                        <li> <a href="about us.html" > About us</a> </li>
+                        <li> <a href="fitness cal>" >Fitness cal</a></li>
+                        <li> <a href="Contact us" >Contact us</a></li>
+                        <li> <a href = "feedback" >Feedback</a></li>
+                    </ul>
+
+            </div>
+
+            <div class="right">
+                <button class="btn"> Call </button>
+
+                <button class="btn"> Email </button>
+                    
+            </div>
+        </header>
+
+
+        <div class="container">
+            
+            <div class="text">
+                BUILD PERFECT BODY SHAPE
+            </div>  
+             <div class="text34">
+                FOR GOOD AND HEALTHY LIFE
+            </div>     
+        
+       
+          <button class="btn_1">BECOME MEMBER</button>
+
+
+        </div>
+
+        <div class="container_2">
+            <video autoplay loop muted plays-inline class="video"> 
+
+                <source src="img/vid.mp4" type="video/mp4">
+                <source src="movie.ogg" type="video/ogg">
+               
+            </video>
+       </div>
+
+</body>
+</html>
